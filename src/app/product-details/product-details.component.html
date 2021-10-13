@@ -1,1 +1,10 @@
-<p>product-details works!</p>
+<h2 class="mt-5 mb-4">Product details</h2>
+
+<div class="container d-flex flex-wrap mt-2" *ngIf="product">
+    <div><img class="border" src="{{ product.image }}" alt="{{ product.image }}" style="width: 30%"></div>
+    <div class="bg-secondary p-4"><h4>{{ product.name }}</h4>
+        <p *ngIf="product.material">Material: {{ product.material }}</p>
+        <p>Color: {{ product.color }}</p>
+        <h6>€{{ product.price }}</h6>
+    </div>
+</div>
