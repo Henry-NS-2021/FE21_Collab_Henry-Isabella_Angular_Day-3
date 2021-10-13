@@ -2,7 +2,7 @@ export const products =[
     {
         name: "Scratch-me-hard Cat Tree",
         color:"light",
-        material:"wood, fake-fur, rope, plastic",
+        material:"",
         image:"assets/img/catTree4.jpg",
         price: 120
 
@@ -29,7 +29,7 @@ export const products =[
 
     },{
         name:"Lion's Cave",
-        color:"dark",
+        color:"",
         material:"wood, fake-fur, rope, plastic",
         image: "assets/img/catTree2.jpg",
         price: 100
