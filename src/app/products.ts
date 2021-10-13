@@ -1,5 +1,3 @@
-import { CloneVisitor } from "@angular/compiler/src/i18n/i18n_ast";
-
 export const products =[
     {
         name: "Scratch-me-hard Cat Tree",
